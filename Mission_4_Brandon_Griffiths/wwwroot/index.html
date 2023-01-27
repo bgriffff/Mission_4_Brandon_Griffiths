@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Title -->
+    <title>Brandon's Site</title>
+
+    <!-- New title image -->
+    <link rel="icon" type="image/png" href="icons8-cave-16.png">
+
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container text-center">
+        <!-- Main Content -->
+        <h1>Brandon</h1>
+        <br />
+        <img src="IMG_3207.jpg" height="500" />
+        <br />
+
+        <h4>What I want out of IS413</h4>
+        <p>I want to increase my technical knowledge to help me with my internship for this summer. I want to be a competitive candidate in interviews for future internships as a Software Engineer. I also want to build a SaaS this summer in my spare time and this class will help me get there.</p>
+        <br />
+
+        <h4>Top #3 Jobs I want to Pursue</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Product Manager</li>
+            <li class="list-group-item">Software Engineer</li>
+            <li class="list-group-item">Start my own SaaS</li>
+        </ul>
+        <br />
+
+        <!-- Grade Calculator Form -->
+        <h4>Grade Calculator</h4>
+        <form>
+            <label>Assignments</label>
+            <input type="number" id="assignment_perc" />
+            <br />
+
+            <label>Quizzes</label>
+            <input type="number" id="quizzes_perc" />
+            <br />
+
+            <label>Group Projects</label>
+            <input type="number" id="group_projects_perc" />
+            <br />
+
+            <label>INTEX</label>
+            <input type="number" id="Intex_perc" />
+            <br />
+
+            <label>Final Exam</label>
+            <input type="number" id="final_exam_perc" />
+            <br />
+
+            <label>Midterm Exam</label>
+            <input type="number" id="mid_exam_perc" />
+            <br />
+            <br />
+
+            <input id="btnSend" type="button" value="Submit" />
+            <br />
+            <br />
+
+            <h5 id="final_percent"><b></b></h5>
+            <h5 id="letter_grade"><b></b></h5>
+            <br />
+            <br />
+        </form>
+
+    </div>
+
+
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/Grades.js"></script>
+
+    <script src="lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.esm.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.esm.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
