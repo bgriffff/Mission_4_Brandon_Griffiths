@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <!-- Title -->
+    <title>@ViewData["Title"]</title>
+
+    <!-- New title image -->
+    <link rel="icon" type="image/png" href="icons8-cave-16.png">
+
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="~/css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-controller="Home" asp-action="GradeCalculator">Fan Mail</a>
+    </nav>
+
+
+        @RenderBody()
+
+    <br />
+    <br />
+    <br />
+
+    <footer>Thanks for checking out my website!</footer>
+
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="~/js/grades.js"></script>
+
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.esm.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.esm.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
