@@ -55,5 +55,5 @@
     //prints letter grade to the form
     $('#letter_grade').html("Final Letter Grade: " + letter_grade);
 
-    
+    alert("Final Letter Grade: " + letter_grade + "\n" + "Final Grade Percentage: " + grade_average)
 })

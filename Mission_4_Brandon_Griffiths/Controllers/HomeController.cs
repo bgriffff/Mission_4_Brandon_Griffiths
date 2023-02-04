@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission_4_Brandon_Griffiths.Models;
 
 namespace Mission_4_Brandon_Griffiths.Controllers
 {
@@ -9,7 +10,14 @@ namespace Mission_4_Brandon_Griffiths.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult GradeCalculator()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult GradeCalculator(GradeCalculatorModel model)
         {
             return View();
         }
